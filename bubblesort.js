@@ -1,8 +1,4 @@
 function bubbleSort(array) {
-  let resultArr = [];
-
-
-
   if (!array) {
     return array;
   } else {
@@ -15,15 +11,14 @@ function bubbleSort(array) {
     }
   }
   return array;
-
 }
 
 console.log(bubbleSort([6, 5, 4, 3, 2, 1]))
 
 function swap(num1, num2) {
-    if (num2 < num1) {
-      return [num2, num1];
-    } else {
-      return [num1, num2]
-    }
+  if (num2 < num1) {
+    return [num2, num1];
+  } else {
+    return [num1, num2]
+  }
 }
