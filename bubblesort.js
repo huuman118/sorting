@@ -3,7 +3,7 @@ function bubbleSort(array) {
     return array;
   } else {
     for (let j = array.length - 1; j > 0; j--) {
-      for (let i = 0; i < array.length - 1; i++) {
+      for (let i = 0; i < j; i++) {
         let swapResult = swap(array[i], array[i + 1])
         array[i] = swapResult[0]
         array[i + 1] = swapResult[1]
